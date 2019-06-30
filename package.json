@@ -7,8 +7,11 @@
     "test": "jest"
   },
   "dependencies": {
+    "@shoutem/animation": "^0.12.3",
+    "@shoutem/ui": "^0.24.1",
     "react": "16.8.3",
-    "react-native": "0.59.9"
+    "react-native": "0.59.9",
+    "react-native-share": "^1.2.1"
   },
   "devDependencies": {
     "@babel/core": "7.4.5",
