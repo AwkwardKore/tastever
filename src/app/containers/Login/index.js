@@ -13,6 +13,10 @@ export default class Login extends Component {
       >
         <StatusBar barStyle="light-content" />
         <Overlay style={styles.container}>
+          <Text style={styles.text}>
+            Share and discover good food and
+            travel destinations.
+          </Text>
         </Overlay>
       </ImageBackground>
     );
@@ -27,5 +31,12 @@ const styles = StyleSheet.create({
     backgroundColor: 'rgba(0, 0, 0, 0.5)',
     height: '100%',
     width: '100%'
+  },
+  text: {
+    color: '#D8D8D8',
+    fontFamily: 'SourceSansPro-Bold',
+    fontSize: 20,
+    textAlign: 'center',
+    width: '90%'
   }
 });
