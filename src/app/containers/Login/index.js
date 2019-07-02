@@ -2,6 +2,9 @@ import React, {Component} from 'react';
 import {StatusBar, StyleSheet, Text, View} from 'react-native';
 import {ImageBackground, Overlay} from '@shoutem/ui';
 
+import EmailSignUpButton from '../../components/EmailSignUpButton';
+import FacebookSignUpButton from '../../components/FacebookSignUpButton';
+
 const background = require('../../../assets/images/backgrounds/login-background.png');
 
 export default class Login extends Component {
@@ -17,6 +20,8 @@ export default class Login extends Component {
             Share and discover good food and
             travel destinations.
           </Text>
+          <FacebookSignUpButton />
+          <EmailSignUpButton />
         </Overlay>
       </ImageBackground>
     );
