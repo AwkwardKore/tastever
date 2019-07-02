@@ -7,7 +7,7 @@
  */
 
 import React, {Component} from 'react';
-import Login from './src/containers/Login';
+import Login from './src/app/containers/Login';
 
 export default class App extends Component {
   render() {
